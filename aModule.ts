@@ -1,7 +1,7 @@
-export function a() {
+export const a = () => {
   return sideEffect();
-}
+};
 
-export function sideEffect() {
+export const sideEffect = () => {
   return "a";
-}
+};
